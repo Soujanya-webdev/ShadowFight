@@ -1,124 +1,38 @@
-#   Shadow Blade — Samurai Fighter
+# Expense Tracker
 
-A fast-paced 2D samurai duel built using HTML5 Canvas, featuring fluid combat, adaptive AI, and a striking Japanese ink art aesthetic.
-
----
-
-##   Overview
-
-**Shadow Blade** is a one-on-one fighting game where you control a skilled samurai (Kensei) battling against an intelligent AI opponent (Ronin). The game emphasizes timing, precision, and strategic use of attacks, blocks, and special moves.
-
-The visual style is inspired by traditional Japanese woodblock art — featuring moonlit skies, mountain silhouettes, and dynamic ink splatter effects during combat.
+This is a simple website that helps you keep track of your money.  
+It shows how much money you have, how much you spend, and how much you save.
 
 ---
 
-##   Controls (Player — Kensei)
+# What it does
 
-| Key | Action |
-|-----|--------|
-| A / D | Move left / right |
-| W | Jump |
-| J | Light Attack (fast, low damage) |
-| K | Heavy Attack (slow, high damage) |
-| L | Block (reduces damage by ~85%) |
-| J + K | **ISSEN Special Move** (requires 3 pips) |
+## Total Balance
+Shows the total amount of money you have right now.
 
----
+## Income
+You can write down money you receive, like salary, pocket money, or gifts.
 
-##   AI System (Ronin)
+## Expenses
+You can write down money you spend, like food, shopping, or daily needs.
 
-The enemy AI dynamically adapts based on its health:
-
-- High HP → Defensive and calculated
-- Low HP → Aggressive and reckless
-- Capabilities:
-  - Blocking incoming attacks
-  - Jumping to evade
-  - Performing its own **Shadow Cut** special move
-
-This creates an evolving fight rather than predictable patterns.
+## History
+A list of all your transactions, from newest to oldest.
 
 ---
 
-##   Core Features
+# How to use it
 
-###   Combat System
-- Light and heavy attack mechanics
-- Combo chaining with hit detection
-- Block system with damage reduction
-- Special move system powered by energy (pips)
+1. Open the website in your browser  
+2. Type the name of what you bought or earned  
+3. Enter the amount of money  
+4. Choose if it is income or expense  
+5. Click the add button  
 
-###   Visual Effects
-- Dynamic slash trails
-- Hit particles on impact
-- Ink splatter effects on the ground
-- Cinematic camera shake on damage
+Your data will be saved automatically, even if you close the website and open it again later.
+ 
 
-###   HUD Elements
-- Health bars for both fighters
-- Combo counter
-- Special energy (pip system)
-- 60-second round timer
+# Why I built this
 
-###  Game Flow
-- Real-time duel mechanics
-- Win/Loss detection
-- End screen with rematch option
-
----
-
-##   Mechanics Breakdown
-
-### Special Move System
-- Each successful hit builds special energy
-- 3 pips required to execute **ISSEN**
-- High-risk, high-reward finisher
-
-### Blocking
-- Reduces incoming damage by ~85%
-- Requires timing — holding block blindly limits offense
-
-### AI Difficulty Curve
-- Adaptive aggression ensures replayability
-- Forces player to adjust strategy mid-fight
-
----
-
-##   Tech Stack
-
-- **HTML5 Canvas** — rendering and animations
-- **JavaScript** — game logic, physics, AI behavior
-- **CSS** — UI styling and layout
-
----
-
-##  How to Run
-
-1. Download or clone the project
-2. Open `index.html` in your browser  
-   *(No build tools or dependencies required)*
-
----
-
-##   Future Improvements
-
-- Multiplayer (local or online)
-- Sound design (sword clashes, ambient audio)
-- More characters with unique abilities
-- Advanced combo system
-- Mobile controls support
-
----
-
-##   Final Note
-
-This project is not just a game — it’s a study in **real-time combat systems, animation feedback, and player-AI interaction**.
-
-If you’re building games, pay attention to:
-- Feedback loops (visual + mechanical)
-- Input responsiveness
-- AI unpredictability
-
-That’s where good games become addictive.
-
----
+I built this project to create a simple and clean tool for managing money.  
+The design follows a Brutalist style, which uses bold text and simple layouts so everything is easy to read and understand. 
